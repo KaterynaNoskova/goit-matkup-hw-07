@@ -13,9 +13,64 @@
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" 
         crossorigin="anonymous" 
         referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/mobile-menu.css">
     <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 <body>
+    <header class="page-header">
+        <div class="container">
+          <button
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg
+              width="24"
+              height="24"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+  
+          <ul class="menu">
+            <li><a href="#" class="link">Studio</a></li>
+            <li><a href="#" class="link">Portfolio</a></li>
+            <li><a href="#" class="link">Contacts</a></li>            
+          </ul>
+        </div>
+      </header>
+  
+      <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="menu-toggle js-close-menu">
+          <svg
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
+  
+        <ul class="mobile-menu">
+          <li><a href="" class="link">About</a></li>
+          <li><a href="" class="link">Products</a></li>
+          <li><a href="" class="link">Contacts</a></li>
+          <li><a href="" class="link">Career</a></li>
+        </ul>
+      </div>
     <header class="header">
         <div class="container header-container">
             <nav class="header-navigation"> 
@@ -35,13 +90,13 @@
         </div>
     </header>
     <main>
-        <section class="slogan section">
+        <!-- <section class="slogan section">
            <div class="container">
                 <h1 class="slogan-title">Effective Solutions <br> for Your Business</h1>
                 <button type="button" class="slogan-btn" data-modal-open>Order Service</button>
            </div>
-        </section>
-        <section class="about section">
+        </section> -->
+        <!-- <section class="about section">
             <div class="container">
                 <h2 class="visually-hidden">About us</h2>
                 <ul class="about-list list">
@@ -84,8 +139,8 @@
                     </li>
                 </ul>
             </div>
-        </section>
-        <section class="doing">
+        </section> -->
+        <!-- <section class="doing">
             <div class="container">
                 <h2 class="doing-title">What are we doing</h2>
                 <ul class="doing-list list">
@@ -109,8 +164,8 @@
                     </li>            
                 </ul>
             </div>
-        </section>
-        <section class="team section">
+        </section> -->
+        <!-- <section class="team section">
             <div class="container">
                 <h2 class="team-title">Our Team</h2>
                 <ul class="team-list list">
@@ -264,8 +319,8 @@
                     </li>             
                 </ul>
             </div>
-        </section>
-        <section class="customers section">
+        </section> -->
+        <!-- <section class="customers section">
             <h2 class="customers-title">Customers</h2>
             <ul class="customers-icon-list list">
                 <li class="customers-icon-item">
@@ -311,9 +366,9 @@
                     </a>
                 </li>
             </ul>
-        </section>
+        </section> -->
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
             <div class="container">
                 <section class="footer-wrap">
                     <section class="footer-text">
@@ -373,7 +428,7 @@
                     </form>
                 </section>
             </div>
-    </footer>
+    </footer> -->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-close" data-modal-close>
@@ -460,5 +515,12 @@
         </div >
     </div>
     <script src="./js/modal.js"></script>
+    <script
+        defer
+        src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
 </body>
 </html>
