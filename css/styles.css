@@ -14,7 +14,7 @@ ul{
 }
 img{
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 body{
@@ -284,9 +284,9 @@ body{
     0px 1px 1px rgba(46, 47, 66, 0.16), 
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.team-item:nth-child(4n) {
+/* .team-item:nth-child(4n) {
     margin-right: 0;
-}
+} */
 .team-item-wrap {
     padding-top: 30px;
     background-color: #fff;
@@ -704,7 +704,7 @@ input:-webkit-autofill:focus {
     line-height: calc(14/12);
     letter-spacing: 0.01em;
     color: #8E8F99;
-    padding-bottom: 4px;
+    margin-bottom: 4px;
 }
 .input-wrap {
     position: relative;
