@@ -1,4 +1,4 @@
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
     .container {
         max-width: 448px;
     }
@@ -52,5 +52,29 @@
     .customers-icon-item {
         width: 190px;
     }
-    
+    .footer-wrap {
+        display: block;
+        margin: 0 auto;
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+    .footer-text {
+        margin-bottom: 72px;
+    }
+    .footer-logo-link {
+    }
+    .footer-soc {
+        margin-bottom: 72px;
+    }
+    .footer-soc-title {
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+    .subscribe-form {
+        display: block;
+    }
+    .subscribe-title {
+
+    }
 }
