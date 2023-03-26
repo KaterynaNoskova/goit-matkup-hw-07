@@ -1,0 +1,41 @@
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+    .header {
+        padding-bottom: 10px;
+    }
+    .header-list {
+        display: flex;
+        gap: 40px;
+    }
+    .header-address {
+        display: flex;
+    }
+    .header-address-list {
+        display: block;
+        padding-bottom: 4px;
+        flex-direction: column;
+    }
+    .slogan-title {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: calc(60/56);
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+    .about-list {
+        padding-left: 16px;
+        padding-right: 16px;
+        display: flex;
+        gap: 72px 24px;
+        text-align: left;
+        justify-content: start;
+    }
+    .about-item{
+        width: calc((100% - 24px)/2);
+    }
+}
