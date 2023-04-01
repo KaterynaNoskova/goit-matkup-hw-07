@@ -69,7 +69,10 @@
     .team-item {
         width: calc((100% - 24px) / 2);
     }
-
+    .customers-icon-item {
+        width: 168px;
+        height: 88px;
+    }
 
     .footer-wrap {
         display: flex;       
@@ -111,5 +114,21 @@
     .subscribe-btn {
         height: 40px;
     }
-    
+    .mobile-menu {
+        display: none;
+    }
+    .mobile-menu {
+        display: none;
+    }
+    .mobile-menu-btn-icon {
+        display: none;
+    }
+    .header-navigation {
+        display: flex;
+        align-items: center;
+        margin-right: auto;
+    }
+    .header-navigation-mobile {
+        display: none;
+    }
 }
