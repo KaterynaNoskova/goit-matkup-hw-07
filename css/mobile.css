@@ -219,6 +219,9 @@
         gap: 56px;
         margin-top: 56px;
     }
+    .modal {
+        width: 392px;
+    }
 }
 
 @media screen and (min-width: 480px) {
