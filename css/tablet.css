@@ -18,6 +18,20 @@
         padding-bottom: 4px;
         flex-direction: column;
     }
+    .slogan {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tablet-slogan.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        flex-grow: 1;
+    }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx){
+        .slogan {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tablet-slogan-2x.jpg);
+        }
+    }
     .slogan-title {
         font-weight: 700;
         font-size: 56px;
@@ -31,6 +45,7 @@
         padding-left: 16px;
         padding-right: 16px;
         display: flex;
+        flex-wrap: wrap;
         gap: 72px 24px;
         text-align: left;
         justify-content: start;
@@ -38,4 +53,63 @@
     .about-item{
         width: calc((100% - 24px)/2);
     }
+    .about-item-title {
+        text-align: left;
+        justify-content: start;
+    }
+
+
+    .team-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        padding-left: 108px;
+        padding-right: 108px;
+    }
+    .team-item {
+        width: calc((100% - 24px) / 2);
+    }
+
+
+    .footer-wrap {
+        display: flex;       
+    }
+    .footer-tablet {
+        display: flex;
+        gap: 24px;
+        padding-left: 108px;
+    }
+    .footer-text {
+        text-align: left;
+        justify-content: start;
+        width: 264px;
+    }
+    .footer-logo-link {
+        display: block;
+    }
+    .footer-desc {
+        padding: 0;
+    }
+
+    .subscribe-form {
+        padding-left: 108px;
+    }
+    .subscribe-title {
+        text-align: left;
+        justify-content: start;
+        display: block;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: var(--typical-lh);
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        padding-bottom: 16px;
+    }
+    .subscribe-input {
+        width: 264px;
+    }
+    .subscribe-btn {
+        height: 40px;
+    }
+    
 }

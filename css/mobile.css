@@ -7,10 +7,13 @@
     }
 
 
-   .header-list {
+    .header{
+        padding-bottom: 24px;
+    }
+    .header-list {
         display: none;
     }
-   .header-address {
+    .header-address {
         display: none;
     }
 

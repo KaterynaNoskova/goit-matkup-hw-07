@@ -1,0 +1,177 @@
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1158px;
+        margin: 0 auto;
+    }
+    .header {
+        padding-bottom: 24px;
+    }
+    .header-address-list {
+        display: flex;
+        gap: 40px;
+        flex-direction: row;
+    }
+    .header-address-link {
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: var(--typical-lh);
+        letter-spacing: 0.02em;
+        color: var(--second-text-color, #434455);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+
+    .slogan {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/slogan-bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        flex-grow: 1;
+    }
+
+
+    .about-icon-item {
+        width: 264px;
+        height: 112px;
+        background-color: #F4F4FD;
+        border-radius: 4px;
+        margin-bottom: 8px;
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-icon-item {
+        display: flex;
+    }
+    .about-list {
+        display: flex;
+        justify-content: space-between;
+    }
+    .about-item{
+        width: calc((100% - 72px)/4);
+    }
+
+
+    .doing {
+        display: block;
+        padding-bottom: 120px;
+    }
+
+
+    .team-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        padding: 0;
+    }
+    .team-item {
+        width: calc((100% - 72px) / 4);
+    
+    }
+
+
+    .customers-icon-list {
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer {
+        background: var(--main-text-color, #2E2F42);
+        padding: 100px 0;
+    }
+    .footer-wrap {
+        display: flex;
+        flex-direction: row;
+    }
+    .footer-text {
+        margin-right: 120px;
+    }
+    .footer-logo-link {
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: var(--typical-lh);
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--accent-color, #4D5AE5);
+        margin-bottom: 16px;
+    }
+    .footer-accent-logo{
+        color: #F4F4FD;
+    }
+    .footer-desc {
+        font-size: 16px;
+        line-height: var(--typical-lh);
+        letter-spacing: 0.02em;
+        color: #E7E9FC;
+        width: 264px;
+    }
+    .footer-soc {
+    
+    }
+    .footer-tablet {
+        display: flex;
+        gap: 24px;
+        padding: 0;
+    }
+    .subscribe-form {
+        margin: 0;
+    }
+    .subscribe-title {
+        display: block;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: var(--typical-lh);
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        padding-bottom: 16px;
+    }
+    .subscribe-field {
+        display: flex;
+        gap: 24px;
+    }
+    .subscribe-input {
+        height: 40px;
+        width: 264px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 4px;
+        background-color: transparent;
+        outline: transparent;
+        padding-left: 16px;
+    }
+    .subscribe-btn {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: var(--typical-lh);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        background-color: var(--accent-color);
+        border: none;
+        border-radius: 4px;
+        padding: 8px 24px;
+        gap: 16px;
+        cursor: pointer;
+        
+    }
+    .subscribe-icon {
+        fill: #FFFFFF;
+    }
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus {
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        -webkit-text-fill-color: rgba(255, 255, 255, 0.3);
+        -webkit-box-shadow: 0 0 0px 1000px #2E2F42 inset;
+        transition: background-color 5000s ease-in-out 0s;
+    }
+}
