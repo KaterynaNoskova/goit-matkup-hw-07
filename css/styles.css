@@ -867,8 +867,6 @@ input:-webkit-autofill:focus {
 .mobile-menu.is-open {
     transform: translateX(0);
 }
-.mobile-menu {
-}
 .container-menu {
     min-width: 320px;
 }
@@ -901,7 +899,7 @@ input:-webkit-autofill:focus {
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
-    line-height: 40px;
+    line-height: calc(40/36);
     text-transform: capitalize;
     color: #4D5AE5;
 }

@@ -46,6 +46,12 @@
     .about-icon-item {
         display: none;
     }
+    .about-item {
+        margin-bottom: 72px;
+    }
+    .about-item:last-child {
+        margin-bottom: 0;
+    }
     .about-list {
         width: 100%;
         justify-content: center;
@@ -59,12 +65,11 @@
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: #2E2F42;
-        padding-bottom: 8px;
     }
     .about-item-text {
         width: 100%;
+        text-align: left;
         margin: 0 auto;
-        margin-bottom: 72px;
         font-weight: 500;
         font-size: 16px;
         line-height: calc(24/16);
@@ -87,9 +92,17 @@
         width: 264px;
         height: 100%;
         margin: 0 auto;
+        margin-bottom: 72px;
+    }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx){
+        .team-item {
+            
+        }
     }
     .team-item-wrap {
-        margin-bottom: 72px;
+        
     }
 
 
@@ -112,12 +125,16 @@
     }
     .footer-wrap {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        /* flex-direction: column; */
     }
     .footer-text {
         text-align: center;
         justify-content: center;
-        margin-bottom: 72px;
+        padding-bottom: 72px;
     }
     .footer-logo-link {
         font-family: 'Raleway', sans-serif;
@@ -141,14 +158,20 @@
         line-height: calc(24/16);
         letter-spacing: 0.02em;
         color: #E7E9FC;
-        padding-left: 80px;
-        padding-right: 80px;
+        padding-left: 10px;
+        padding-right: 10px;
         text-align: left;
     }
     .footer-soc {
-        margin-bottom: 72px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 72px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
     }
     .footer-soc-title {
+        width: 100%;
         text-align: center;
         justify-content: center;
         font-weight: 500;
@@ -172,9 +195,11 @@
     }
     .subscribe-input {
         margin-bottom: 16px;
+        min-width: 250px;
     }
-    .subscribe-btn-wrap {
+    .subscribe-field {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         text-align: center;
     }
@@ -216,11 +241,17 @@
     }
     .mobile-menu-soc-list {
         display: flex;
-        gap: 56px;
-        margin-top: 56px;
+        gap: 30px;
+        margin-top: 40px;
+    }
+    .container-menu {
+        min-width: 250px;
     }
     .modal {
-        width: 392px;
+        width: 290px;
+    }
+    .mobile-menu-address-tel-link {
+        font-size: 26px;
     }
 }
 
@@ -228,8 +259,29 @@
     .container {
         max-width: 450px;
     }
+    .section{
+        padding: 96px 0; 
+    }
     .subscribe-input {
         margin-bottom: 16px;
         width: 100%;
+    }
+    .modal {
+        width: 392px;
+    }
+    .mobile-menu-soc-list {
+        display: flex;
+        gap: 56px;
+        margin-top: 56px;
+    }
+    .mobile-menu-address-tel-link {
+        font-size: 36px;
+    }
+    .footer-desc {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .subscribe-input {
+        min-width: 396px;
     }
 }

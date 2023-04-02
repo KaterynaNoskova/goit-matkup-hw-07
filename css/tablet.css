@@ -52,6 +52,7 @@
     }
     .about-item{
         width: calc((100% - 24px)/2);
+        margin-bottom: 0;
     }
     .about-item-title {
         text-align: left;
@@ -62,42 +63,63 @@
     .team-list {
         display: flex;
         flex-wrap: wrap;
-        gap: 24px;
+        gap: 64px 24px;
         padding-left: 108px;
         padding-right: 108px;
     }
     .team-item {
         width: calc((100% - 24px) / 2);
+        margin-bottom: 0;
+    }
+    .customers-icon-list {
+        gap: 72px 24px;
     }
     .customers-icon-item {
         width: 168px;
         height: 88px;
     }
+    .customers-wrap {
+        padding-left: 108px;
+        padding-right: 108px;
+    }
 
     .footer-wrap {
-        display: flex;       
-    }
-    .footer-tablet {
-        display: flex;
-        gap: 24px;
-        padding-left: 108px;
-    }
-    .footer-text {
         text-align: left;
         justify-content: start;
+        padding-left: 108px;
+        gap: 72px 24px;
+    }
+    .footer-text {
+        display: flex;
+        flex-direction: column;
         width: 264px;
+        padding-bottom: 0;
     }
     .footer-logo-link {
-        display: block;
+        text-align: left;
+
     }
     .footer-desc {
         padding: 0;
     }
+    .footer-soc {
+        text-align: left;
+        justify-content: start;
+        padding-bottom: 0;
+    }
+    .footer-soc-title {
+        text-align: left;
+        margin-top: 0;
+    }
 
     .subscribe-form {
-        padding-left: 108px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        text-align: left;
     }
     .subscribe-title {
+        width: 100%;
         text-align: left;
         justify-content: start;
         display: block;
@@ -110,9 +132,14 @@
     }
     .subscribe-input {
         width: 264px;
+
     }
     .subscribe-btn {
         height: 40px;
+    }
+    .subscribe-field {
+        display: flex;
+        gap: 24px;
     }
     .mobile-menu {
         display: none;
